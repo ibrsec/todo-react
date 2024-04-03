@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import "./Input.scss";
+import React, { useState } from "react"; 
 
 const Input = ({ inputValue, setInputValue }) => {
   const [inp,setInp] = useState("");
